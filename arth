@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	int num1=14,num2=5,a,b,c,d,e;
+	num1=14;
+	num2=5;
+	a=num1+num2;
+	printf("\n sum of num1 and num2 is %d ",a);
+	b=num1-num2;
+	printf("\n sub of num1 and num2 is %d",b);
+	c=num1*num2;
+	printf("\n mul of num1 and num2 is %d",c);
+	d=num1%num2;
+	printf("\n mod of num1 and num2 is %d",d);
+	e=num1/num2;
+	printf("\n  div of num2 and num2 is %d",e);
+}+
