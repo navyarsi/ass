@@ -1,13 +1,22 @@
 #include<stdio.h>
-
-int main()
+main()
 {
-    int a, b,c,d, small;
-    printf("Enter any four number: ");
-    scanf("%d%d%d%d", &a, &b,&c,&d);
-    if(a<b)
-        small=a;
-    else
-        small=b;
-    printf("\nSmallest  number is: %d", small);
-    }
+	int i,n,a[100],lower;
+	scanf("%d",&n);
+     i=0;
+	 while(i<n)
+	 {	scanf("%d",&a[i]);
+i++;
+	}
+	lower=a[0];
+i=0;
+	while(i<n)
+	{
+	if(a[i]<lower)
+	lower=a[i];
+	i++;
+	}
+		printf("lower number=%d",lower);
+
+	 return 0;
+}
