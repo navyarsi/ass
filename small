@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int a, b,c,d, small;
+    printf("Enter any four number: ");
+    scanf("%d%d%d%d", &a, &b,&c,&d);
+    if(a<b)
+        small=a;
+    else
+        small=b;
+    printf("\nSmallest  number is: %d", small);
+    }
