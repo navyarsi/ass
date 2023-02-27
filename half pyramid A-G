@@ -1,0 +1,18 @@
+#include <stdio.h>  
+
+void main()  
+{  
+    // declare the local variables  
+    int i, j;  
+     
+    printf("\n");  
+    for (i = 1; i <= 7; ++i)  
+    {  
+        for (j = 1; j <= i; ++j) 
+        {  
+            printf ("%c ", 'A' + j - 1); 
+        }  
+        printf ("\n"); 
+    }  
+     
+}  
